@@ -32,3 +32,5 @@ foreach($parts_split as $part_split) {
 NoobScript also supports classes and inheritence using the "extends" keyword. $this is used to reference the class instance with respec to inherited functions but $self_instance references the class instance itself. The syntax is closely similar to PHP but "built-in" functions are kept in the $object global variable, and $files, and $object->strings->...
 
 You can define your own "built-in" functions by defining a class in objective-c that inherits from PHPScriptObject and initializes blocks with the functions. Look at PHPincludedobjects.m for reference.
+
+NoobScript allows you define the UI using HTML-like syntax and CSS-like layout definitions. You can animate using the animate function, where you can define layout changes as well as cubic-bezier easing function parameters.
