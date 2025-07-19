@@ -34,3 +34,5 @@ NoobScript also supports classes and inheritence using the "extends" keyword. $t
 You can define your own "built-in" functions by defining a class in objective-c that inherits from PHPScriptObject and initializes blocks with the functions. Look at PHPincludedobjects.m for reference.
 
 NoobScript allows you define the UI using HTML-like syntax and CSS-like layout definitions. You can animate using the animate function, where you can define layout changes as well as cubic-bezier easing function parameters.
+
+This repo contains some amount of commented-out code which should obviously be removed, please bear with this if you inspect the code.
