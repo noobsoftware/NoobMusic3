@@ -36,3 +36,5 @@ You can define your own "built-in" functions by defining a class in objective-c 
 NoobScript allows you define the UI using HTML-like syntax and CSS-like layout definitions. You can animate using the animate function, where you can define layout changes as well as cubic-bezier easing function parameters.
 
 This repo contains some amount of commented-out code which should obviously be removed, please bear with this if you inspect the code.
+
+async functions usually require calling $object->dispose_parent($caller) when finalizing the function to dispose of the parent context of the callback.
